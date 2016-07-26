@@ -1,6 +1,6 @@
 var BAIDU_URL = "http://www.baidu.com";
 
-casper.test.begin('Senario 1: Search word in baidu homepage', 5, function () {
+casper.test.begin('Senario 1: Search word in baidu homepage', function () {
     casper.start(BAIDU_URL, function() {
         test.echo("Open the baidu home page");
         
